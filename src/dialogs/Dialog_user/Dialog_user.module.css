@@ -1,0 +1,33 @@
+.user_contain{
+    background-color: white;
+}
+.header{
+    text-align: center;
+    font-size: 30px;
+    background-color: #00D4E5;
+}
+.list_user{
+    height: 80vh;
+    overflow-y: auto;
+    scroll-snap-type: y;
+    display: flex;
+    flex-direction: column;
+}
+.div_new_cont{
+    padding: 10px 10px;
+    background-color: wheat;
+    display: flex;
+}
+.div_new_cont input{
+    width: 60%;
+}
+
+.user{
+    scroll-snap-align: start;
+    text-align: center;
+    border: 2px solid black;
+    padding: 40px 50px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}

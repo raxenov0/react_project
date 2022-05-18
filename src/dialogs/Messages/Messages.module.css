@@ -1,0 +1,52 @@
+.message{
+    border-radius: 15px;
+    width: 50%;
+    max-width: 600px;
+    min-width: 200px;
+    height: 100vh;
+}
+.user{
+    background-color: #00D4E5;
+    text-align: center;
+    color:black;
+}
+.main_screen_mes{
+    height: 80%;
+    overflow-y: auto;
+    scroll-snap-type: y;
+    background-color: azure;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+
+    display: flex;
+    flex-direction: column;
+   height: 30vh;
+   position: relative;
+
+}
+.menu_btn{
+    display: flex;
+    justify-content: center;
+}
+.text_{
+    margin: 20px ;
+}
+.send{
+    background-color: #b7b1c6;
+    width: 180px;
+    padding: 10px 0;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.add{
+    background-color: antiquewhite;
+    width: 250px;
+    padding: 10px 0;
+    border: 2px solid white;
+    cursor: pointer;
+    margin: 0 10px;
+}

@@ -1,0 +1,109 @@
+.App_return {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+	width: 100%;
+	background: #0F051C;
+	margin: 0 auto;
+	color:#FFFFFF;
+	background-image: url(../setts/assets/images/backgr1.jpg);
+	background-size: cover;
+	background-color:rgba(0, 0, 0, .5);
+	backdrop-filter: blur(30px);
+}
+.container{
+ max-width: 90%;
+ margin: 0 auto;
+}
+
+.header{
+	padding: 5% 0;
+}
+.choose{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.sing_txt{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	Font-size: 64px
+}
+.sign_in_block,.video-transl{
+	margin: 0 2% 0 2%;
+	background: #251C37;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 0px 25px #6151EB;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 38%;
+	
+	flex-direction: column;
+
+}
+.setting ,.info-age-s{
+	width: 23%;
+}
+.traslate{
+	margin: 18% 0 7% 0;
+}
+.sign_in_block{
+	Font-size: 48px
+	
+}
+.comments{
+	margin-bottom: 5%;
+	Font-size: 40px
+}
+.main-info{
+	display: flex;
+	justify-content: center;
+}
+.sign_in{
+  cursor: pointer;
+  Font-size: 40px;
+	background: #6151EB;
+	border-radius: 20px;
+	width: 80%;
+	border: none;
+	color:#FFFFFF;
+	height: 26%;
+	margin: 6% auto;
+}
