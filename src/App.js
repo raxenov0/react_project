@@ -11,7 +11,7 @@ const App = (props) => {
         <Header/>
         <Routes>
           <Route path='profile/*' element = {<Computer_vision/>}/>
-          <Route path='dialogs/*' element = {< Dialogs data={props.data._state.dialogs} addMes={props.data.addMessage.bind(props.data)} addUs = {props.data.addUsers.bind(props.data)} currC={props.data.currentContact.bind(props.data)} currT={props.data.currentText.bind(props.data)}/>}/>
+          <Route path='dialogs/*' element = {< Dialogs dispatch={props.dispatch}/>}/>
         </Routes>
       </div>
   );

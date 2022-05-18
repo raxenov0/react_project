@@ -46,8 +46,8 @@ a{
 	align-items: center;
 }
 .logo_{
-	margin-right: 10px;
-	width: 30%;
+	margin:0 10%;
+	width: 16%;
 	max-width: 500px;
 }
 .main_screen{

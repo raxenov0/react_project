@@ -4,7 +4,7 @@ import lc from '../images/lc.png';
 import push from '../images/push.png';
 import settings from '../images/settings.png'
 import { NavLink } from 'react-router-dom';
-import classHeader from './Header.module.css'
+import './Header.module.css'
 
 const header = () => {
     
